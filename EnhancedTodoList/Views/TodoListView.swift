@@ -121,4 +121,5 @@ struct TodoListView: View {
 }
 #Preview {
     TodoListView()
+        .modelContainer(TodoItem.preview)
 }
