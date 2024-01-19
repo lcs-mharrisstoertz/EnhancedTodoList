@@ -1,11 +1,12 @@
 
-import Observation
-import Foundation
 
-@Observable
-class TodoItem: Identifiable {
+import Foundation
+import SwiftData
+
+@Model
+
+class TodoItem {
     
-    let id = UUID()
     var details: String
     let createdOn: Date
     var isCompleted: Bool
