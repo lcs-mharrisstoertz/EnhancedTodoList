@@ -3,7 +3,7 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         TabView {
-            ToDoListView()
+            TodoListView()
                 .tabItem {
                     Text("Tasks")
                     Image(systemName: "checklist")
